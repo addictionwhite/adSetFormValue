@@ -1,9 +1,7 @@
-"# adSetFormValue" 
+"# adSetFormValue"
 
-1: include "adSetFormValue.js"
-2: write  with debugConsole  'adSetFormValue()'
+1: include "adSetFormValue.js"<br>
+2: write  with debugConsole  '$('body').adSetFormValue();'
 
-TODO
-  type 「text checkbox ridio 」only
-
-
+Remarks<br>
+  type 「text checkbox ridio select 」only now
