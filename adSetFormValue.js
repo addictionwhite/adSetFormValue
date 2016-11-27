@@ -15,6 +15,7 @@
     // メインメソッド 
     function doAdSetFormValue(thisObj){
         doSetFomrValue('input',setInputValue);
+        doSetFomrValue('select',setSelectValue);
     }
 
 
@@ -58,16 +59,13 @@
       thisObj.prop('checked', true);
     }
 
-    function setSelectFormValue(thisObj){
-        console.log(thisObj);
-    }
-
 
     function setCheckBoxFormValue(thisObj){
       thisObj.prop("checked",true);
     }
 
 
+    function setSelectValue(thisObj){
       var oputionLength =  thisObj.children().length;
       var randamNum = getRandomNum(oputionLength);
       thisObj.find('option').eq(randamNum).prop('selected',true);
