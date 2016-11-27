@@ -4,4 +4,7 @@
 2: write  with debugConsole  '$('body').adSetFormValue();'
 
 Remarks<br>
-  type 「text checkbox ridio select 」only now
+type 「text checkbox ridio select 」only now
+
+LICENSE<br>
+MIT
